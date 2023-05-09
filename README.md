@@ -1,5 +1,15 @@
-# InceptionV3 Bone Fracture Detection
-This repository contains a convolutional neural network (CNN) model using InceptionV3 for classifying bone X-ray images as fractured or not fractured.
+# Bone X-ray Image Classification using InceptionV3
+This repository contains a Convolutional Neural Network (CNN) model for classifying bone X-ray images as fractured or not fractured using InceptionV3 architecture.
+
+# Introduction
+The goal of this project is to build a robust and accurate bone X-ray image classification model that can assist medical professionals in diagnosing bone fractures. Currently, the model has shown promising results, but there is still room for improvement. Future work includes fine-tuning the model hyperparameters, experimenting with different architectures, and adding more data augmentation techniques to improve model performance.
+
+### Current Accuracy on Unseen test cases
+
+```
+Test Loss: 0.4477443993091583
+Test Accuracy: 0.8057022094726562
+```
 
 # Installation
 To use this notebook, please follow these steps:
