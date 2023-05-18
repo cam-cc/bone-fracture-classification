@@ -7,8 +7,8 @@ The goal of this project is to build a robust and accurate bone X-ray image clas
 ### Current Accuracy on Unseen test cases
 
 ```
-Test Loss: 0.4477443993091583
-Test Accuracy: 0.8057022094726562
+Test Loss: 0.2737516462802887
+Test Accuracy: 0.9012354707717896
 ```
 
 # Installation
