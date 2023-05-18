@@ -35,6 +35,7 @@ rm -rf dataset/train && rm -rf dataset/val
 ```
 Split the folders into Train / Test / Validation sets (currently 80/10/10)
 ```
+pip install split-folders
 python3 split-folders.py
 ```
 Finally, run the ipynb notebook to train and evaluate the model.
