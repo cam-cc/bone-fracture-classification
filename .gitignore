@@ -1,0 +1,7 @@
+# Ignore specific files
+best_model.h5
+v1_bone_fracture_weights.h5
+v1_bone_fracture_model.h5
+
+# Ignore dataset folder
+/dataset
