@@ -4,6 +4,13 @@
 
 This repository contains a high-performance machine learning model for classifying bone fractures in medical images. The model achieves an impressive 98% accuracy, making it a valuable tool for assisting medical professionals in diagnosing bone fractures quickly and accurately.
 
+you can run the gui by running the model on your local machine and then running:
+
+``` python gui.py ```
+
+![image](https://github.com/user-attachments/assets/877abe98-03eb-45a1-ab8b-1638ba979701)
+
+
 ## Features
 
 - High accuracy (98%) in classifying bone fractures
