@@ -43,8 +43,11 @@ The model was trained on over a thousand images of different fractures consistin
 
 ## Performance
 
-- Accuracy: 98%
-
+- Accuracy: 99%
+```
+Test accuracy: 0.9941
+Test loss: 0.0399
+```
 ## Limitations
 
 The model's performance may vary for pediatric patients or rare types of fractures not well-represented in the training data.
