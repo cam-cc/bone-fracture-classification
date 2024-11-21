@@ -13,9 +13,9 @@ you can run the gui by running the model on your local machine and then running:
 
 ## Features
 
-- High accuracy (98%) in classifying bone fractures
+- High accuracy (99%) in classifying bone fractures
+- includes model confidence percentages
 - Fast inference time for real-time applications
-- Easy to integrate into existing medical imaging systems
 - Supports multiple image formats (DICOM, JPEG, PNG)
 
 ## Model Architecture
@@ -56,9 +56,8 @@ The model's performance may vary for pediatric patients or rare types of fractur
 
 ## Future Work
 
-- Expand the model to classify more specific types of fractures
-- Integrate the model into a user-friendly web application
-- Conduct clinical trials to validate the model's performance in real-world settings
+- Expand the dataset to include A LOT more images
+- add more robust data augmentations
 
 ## Contributors
 
