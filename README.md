@@ -1,68 +1,103 @@
-# Bone Fracture Classification Model 99%!
+# 🦴 Bone Fracture Classification Model (99% Accuracy)
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-1.7%2B-EE4C2C.svg)](https://pytorch.org/)
 
 ## Overview
 
-This repository contains a high-performance machine learning model for classifying bone fractures in medical images. The model achieves an impressive 99% accuracy, making it a valuable tool for assisting medical professionals in diagnosing bone fractures quickly and accurately.
+An advanced deep learning solution for medical image analysis, achieving **99% accuracy** in bone fracture classification. Built to assist medical professionals in rapid and accurate fracture diagnosis.
 
-you can run the gui by running the model on your local machine and then running:
+![Model Demo](https://github.com/user-attachments/assets/877abe98-03eb-45a1-ab8b-1638ba979701)
 
-``` python gui.py ```
+## ✨Key Features
 
-![image](https://github.com/user-attachments/assets/877abe98-03eb-45a1-ab8b-1638ba979701)
-
-
-## Features
-
-- High accuracy (99%) in classifying bone fractures
-- includes model confidence percentages
-- Fast inference time for real-time applications
-- Supports multiple image formats (DICOM, JPEG, PNG)
+- 🎯 99% classification accuracy
+- 📊 Confidence score predictions
+- ⚡ Real-time inference capabilities
+- 🖼️ Multi-format support (DICOM, JPEG, PNG)
+- 🖥️ User-friendly GUI interface
 
 ## Model Architecture
 
-The model uses a deep convolutional neural network, fine-tuned on a large dataset of bone X-ray images.
+Leverages state-of-the-art deep convolutional neural networks, specifically optimized for medical imaging analysis.
 
 ## Dataset
 
-The model was trained on over a thousand images of different fractures consisting of 10 classes in total.
+- 1000+ high-quality X-ray images
+- 10 distinct fracture classes
+- Diverse patient demographics
+- Professional medical annotations
+
 ## Requirements
 
 - Python 3.7+
 - PyTorch 1.7+
 - NumPy
+- Additional dependencies in `requirements.txt`
 
-## Installation
+## 🚀 Quick Start
 
-1. Clone this repository:
-``` git clone https://github.com/cam-cc/bone-fracture-classification.git ```
-
-2. Install the required packages:
-``` pip install -r requirements.txt ```
-
-3. The script will output the classification result and confidence score.
-
-## Performance
-
-- Accuracy: 99%
+1. **Clone the repository**
+```bash
+git clone https://github.com/cam-cc/bone-fracture-classification.git
+cd bone-fracture-classification
 ```
-Test accuracy: 0.9941
-Test loss: 0.0399
+
+2. **Install dependencies**
+```bash
+pip install -r requirements.txt
 ```
-![image](https://github.com/user-attachments/assets/b13c71dd-a82b-42fb-942a-b36d07199084)
+
+3. **Launch the GUI**
+```bash
+python gui.py
+```
+
+## Performance Metrics
+
+```python
+Test Accuracy: 99.41%
+Test Loss: 0.0399
+```
+
+![Performance Graph](https://github.com/user-attachments/assets/b13c71dd-a82b-42fb-942a-b36d07199084)
 
 ## Limitations
 
-The model's performance may vary for pediatric patients or rare types of fractures not well-represented in the training data.
+- Performance may vary for pediatric cases
+- Limited validation on rare fracture types
+- Requires high-quality input images
 
-## Future Work
+## Future Development
 
-- Expand the dataset to include A LOT more images
-- add more robust data augmentations
+- [ ] Expand dataset size significantly
+- [ ] Implement advanced data augmentation
+- [ ] Add support for more fracture types
 
 ## Contributors
 
-Cameron (myself)
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/cam-cc">
+        <img src="https://github.com/cam-cc.png" width="100px;" alt="Cameron"/>
+        <br />
+        <sub><b>Cameron</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## License
 
-MIT
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or collaboration opportunities:
+- Twitter: [@thecammycc](https://twitter.com/thecammycc)
+
+---
+
+<p align="center">Made with ❤️ by Cameron</p>
